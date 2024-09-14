@@ -1,0 +1,310 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.7044441642327478,
+      "y": 4.3678916811515345
+    },
+    "rotation": -60.0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "AutonShoot"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.5
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutonIndexMax"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.25
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutonIndexOff"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutonTiltLongCommand"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.25
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Summer Midline 1"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonArmDownCommand"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonIntakeCommandLong"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonArmUpCommand"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 0.3
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonPassOff"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 0.3
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonIndexMax"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 0.25
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonIndexOff"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Summer Midline 2"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonArmDownCommand"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonIntakeCommandLong"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonArmUpCommand"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 0.3
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonPassOff"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 0.3
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonIndexMax"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 0.25
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonIndexOff"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Summer Midline 3"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonArmDownCommand"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonIntakeCommandLong"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonArmUpCommand"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 0.3
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonPassOff"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 0.3
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonIndexMax"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 0.25
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonIndexOff"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutonShootOff"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

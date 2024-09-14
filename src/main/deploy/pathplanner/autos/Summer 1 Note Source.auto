@@ -1,0 +1,73 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.7336934388833163,
+      "y": 4.3678916811515345
+    },
+    "rotation": -60.0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 11.0
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutonShoot"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.5
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutonIndexMax"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.25
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutonIndexOff"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutonShootOff"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Summer 1 Note Source Path"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 3.0
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

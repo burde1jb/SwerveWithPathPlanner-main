@@ -1,0 +1,342 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.3473171105886368,
+      "y": 5.55472336015897
+    },
+    "rotation": 0.0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "AutonShoot"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.5
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutonIndexMax"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.25
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutonIndexOff"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutonTiltLongCommand"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.25
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonArmDownCommand"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 0.3
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Summer 4 Note 1a"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonArmDownCommand"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonTiltLongCommand"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonIntakeCommand"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonArmUpCommand"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 0.3
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonPassOff"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 0.3
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonIndexMax"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 0.25
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonIndexOff"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Summer 4 Note 2a"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonArmDownCommand"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonIntakeCommand"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonArmUpCommand"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 0.3
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonPassOff"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 0.3
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonIndexMax"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 0.25
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonIndexOff"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Summer 4 Note 3a"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonArmDownCommand"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonIntakeCommand"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonArmUpCommand"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 0.3
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonPassOff"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 0.3
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonIndexMax"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 0.25
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonIndexOff"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonShootOff"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}
